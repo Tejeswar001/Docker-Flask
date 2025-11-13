@@ -3,6 +3,7 @@
 This repository contains a tiny Flask application with a test, a Dockerfile, and a GitHub Actions CI workflow.
 
 Files added:
+
 - `requirements.txt` — Python dependencies
 - `app.py` — minimal Flask app
 - `test.py` — pytest test for the root endpoint
@@ -56,4 +57,5 @@ CI:
 The included GitHub Actions workflow runs the test suite on push and pull requests.
 
 Notes:
+
 - This is intentionally minimal. If you want environment variables, config, or more robust testing, I can add them.
